@@ -6,4 +6,11 @@ Medical-themed websites require visitors to confirm that they are affiliated wit
 
 ___
 
+```
+plugins
+    L___ medicalgate
+            L______ medicalgate.php
+            L______ css
+            L______ js
+`
 
