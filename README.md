@@ -10,10 +10,12 @@ make directory *medicalgate*
 and copy files to the plugins directory
 
 ```
-plugins
-    L___ medicalgate
-            L______ medicalgate.php
-            L______ css
-            L______ js
+wp-content
+    L---
+    plugins
+        L___ medicalgate
+                L______ medicalgate.php
+                L______ css
+                L______ js
 `
-
+go to install plugins in admin panel and switch on ** medical professional gate ** plugin
