@@ -5,6 +5,9 @@ This is a WP plugin that was part of a student assignment for the **CMS** course
 Medical-themed websites require visitors to confirm that they are affiliated with the medical profession.
 
 ___
+### installation ###
+make directory *medicalgate*
+and copy files to the plugins directory
 
 ```
 plugins
