@@ -79,6 +79,7 @@ add_action('wp_footer', function () {
     <div id="mpg-overlay">
         <div class="mpg-modal">
             <h2><?php echo esc_html($title); ?></h2>
+            <div class="mpg-divider"></div>
             <p><?php echo esc_html($content); ?></p>
             <p><?php echo esc_html($confirm); ?></p>
 
