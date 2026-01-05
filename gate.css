@@ -20,6 +20,11 @@
 .mpg-modal h2 {
     margin-top: 0;
 }
+.mpg-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.15);
+    margin: 16px 0 20px;
+}
 
 .mpg-actions {
     margin-top: 20px;
