@@ -1,15 +1,11 @@
-document.addEventListener('DOMContentLoaded', function () {
-
+document.addEventListener('DOMContentLoaded', () => {
     const btn = document.getElementById('mpg-accept');
     if (!btn) return;
 
-    btn.addEventListener('click', function () {
-
-        const days = 30;
-        const maxAge = days * 24 * 60 * 60;
-
-        document.cookie = "mpg_professional=1; path=/; max-age=" + maxAge;
-
-        document.getElementById('mpg-overlay').remove();
+    btn.addEventListener('click', () => {
+        const days = mpgData.cookieDays || 365;
+        const expires = new Date(Date.now() + days * 864e5).toUTCString();
+        document.cookie = `mpg_professional=1; expires=${expires}; path=/`;
+        location.reload();
     });
 });
