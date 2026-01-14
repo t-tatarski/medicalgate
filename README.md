@@ -18,7 +18,7 @@ wp-content
                 L______ css
                 L______ js
 ```
-go to install plugins in admin panel and switch on ** medical professional gate ** plugin
+go to install plugins in admin panel and switch on **medical professional gate** plugin
 
 **settings**
 wp panel->settings->medical gate
